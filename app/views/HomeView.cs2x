@@ -1,0 +1,13 @@
+import React from 'react'
+import Button from '../components/Button.cs2x'
+
+export default class HomeView extends React.Component
+
+  state:
+    header: 'Booooooooooo!'
+
+  render: ->
+    <div className="booooo">
+      <h1>{ @state.header }</h1>
+      <Button caption="Booooo!" />
+    </div>
