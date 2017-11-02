@@ -1,0 +1,11 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import PageHeader from 'views/sections/PageHeader'
+
+export default class NewsView extends React.Component
+
+  render: ->
+    <div className="booooo">
+      <PageHeader />
+      <h1>News</h1>
+    </div>

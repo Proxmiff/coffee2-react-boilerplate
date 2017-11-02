@@ -2,7 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import HomeView from 'views/HomeView'
+import NewsView from 'views/NewsView'
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 require './styles/app.less'
 
-ReactDOM.render <HomeView />, document.getElementById 'page'
+ReactDOM.render <BrowserRouter>
+	<Switch>
+      <Route exact path='/' component={ HomeView }/>
+      <Route exact path='/news/' component={ NewsView }/>
+    </Switch>
+  </BrowserRouter>, document.getElementById 'page'

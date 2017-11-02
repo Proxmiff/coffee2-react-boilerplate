@@ -25,6 +25,7 @@ module.exports =
     inline: true
     host: '0.0.0.0'
     port: 8292
+    historyApiFallback: true
   resolve:
     extensions: ['*', '.js', '.coffee', '.cs2x']
     modules: ['node_modules']
@@ -35,6 +36,7 @@ module.exports =
   output:
     path: path.resolve 'dist'
     filename: "#{do pkg.name.toLowerCase}-#{pkg.version}.js"
+    publicPath: '/'
   module:
     loaders: [
       test: /\.js$/

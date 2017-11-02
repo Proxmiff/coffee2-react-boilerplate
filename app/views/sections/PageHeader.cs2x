@@ -1,0 +1,10 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+export default class PageHeader extends React.Component
+
+  render: ->
+    <div className='page-header'>
+      <Link to={ pathname: '/' }>Home</Link>
+      <Link to={ pathname: '/news/' }>News</Link>
+    </div>
