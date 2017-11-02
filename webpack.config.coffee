@@ -25,6 +25,12 @@ module.exports =
     inline: true
     host: '0.0.0.0'
     port: 8292
+  resolve:
+    extensions: ['*', '.js', '.coffee', '.cs2x']
+    modules: ['node_modules']
+    alias:
+      components: path.resolve 'app/components'
+      views: path.resolve 'app/views'
   entry: './app/app.cs2x'
   output:
     path: path.resolve 'dist'

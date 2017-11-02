@@ -5,7 +5,7 @@ React boilerplate for those who's missing neat compact syntax of coffee and tire
 * Latest [React](https://facebook.github.io/react/)
 * [CoffeeScript 2](http://coffeescript.org/v2/) with built-in JSX support
 * [Babel](https://babeljs.io/)
-* [webpack](https://webpack.js.org) with current dev version of [coffee-loader](https://github.com/webpack-contrib/coffee-loader)
+* [webpack](https://webpack.js.org) with ~~current dev version of~~ [coffee-loader](https://github.com/webpack-contrib/coffee-loader)
 * [Yarn](https://yarnpkg.com/en/)
 
 ### Getting started

@@ -2,7 +2,7 @@
 
     "name":    "coffee2-react-boilerplate",
     "author":  "Proxmiff",
-    "version": "0.0.1",
+    "version": "0.0.2",
 
     "license": "EBAL",
 
@@ -13,8 +13,8 @@
 
     "dependencies": {
 
-        "react":                                                    "^15.6.1",
-        "react-dom":                                                "^15.6.1"
+        "react":                                                    "^16.0.0",
+        "react-dom":                                                "^16.0.0"
 
     },
 
@@ -22,13 +22,13 @@
 
         "babel-core":                                               "^6.25.0",
         "babel-loader":                                              "^7.1.1",
-        "babel-preset-es2015":                                      "^6.24.1",
+        "babel-preset-env":                                          "latest",
         "babel-preset-react":                                       "^6.24.1",
 
         "css-loader":                                               "^0.28.4",
 
-        "coffee-loader": "git://github.com/webpack-contrib/coffee-loader.git",
-        "coffeescript":                                                "next",
+        "coffee-loader":                                             "^0.9.0",
+        "coffeescript":                                              "^2.0.2",
 
         "html-webpack-plugin":                                      "^2.29.0",
         "less":                                                      "^2.7.2",

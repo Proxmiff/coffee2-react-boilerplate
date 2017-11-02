@@ -1,13 +1,21 @@
 import React from 'react'
-import Button from '../components/Button.cs2x'
+import Button from 'components/Button'
+import Input from 'components/Input'
 
 export default class HomeView extends React.Component
 
   state:
-    header: 'Booooooooooo!'
+    header: 'Not clicked yet!'
+
+  click: ->
+    @setState header: 'Clicked!'
+
+  change: (event)->
+    @setState header: event.target.value
 
   render: ->
     <div className="booooo">
       <h1>{ @state.header }</h1>
-      <Button caption="Booooo!" />
+      <Input onChange={ @change.bind @ } />
+      <Button onClick={ @click.bind @ } caption='Click Me!' />
     </div>

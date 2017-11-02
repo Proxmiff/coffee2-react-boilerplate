@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import HomeView from './views/HomeView.cs2x'
+import HomeView from 'views/HomeView'
 
 require './styles/app.less'
 
