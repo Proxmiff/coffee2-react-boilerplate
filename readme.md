@@ -1,6 +1,6 @@
 # CoffeeScript 2 + React = 🤘
 
-React boilerplate for those who's missing neat compact syntax of coffee and tired of lack of existential operator in ES2017
+React boilerplate for those who are missing neat compact syntax of coffee and tired of lack of existential operator in ES2017
 
 * Latest [React](https://facebook.github.io/react/) with [React Router 4](https://github.com/ReactTraining/react-router)
 * [CoffeeScript 2](http://coffeescript.org/v2/) with built-in JSX support
